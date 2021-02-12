@@ -1,0 +1,25 @@
+Var
+aa,an,i: inteiro
+
+Inicio
+Escreval("Programa Idade: esse programa mostrará a sua idade de acordo com o ano do seu último aniversário e o seu ano de seu nascimento, depois mostrará se você é maior de idade ou não")
+    Escreva ("================================================================")
+    Escreval
+    Escreval
+    Escreval
+    Escreva("Digite o ano do seu último aniversário:   ")
+    Leia(aa)
+    Escreva("Digite o ano de seu nascimento:    ")
+    Leia(an)
+    
+    i<- aa-an
+    
+    Se(i>=18) ENTAO
+      Se(i=18) ENTAO
+       escreva(i, ": Sua idade é igual 18")
+      Senao
+       escreva(i,": Você é maior de idade")
+      Fimse
+    Senao
+     Escreva(i, ": Você é menor de idade")
+    Fimse
